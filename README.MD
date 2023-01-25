@@ -39,7 +39,7 @@ also Enable DataBinding in the Module build.gradle by adding this line into code
 dataBinding { enabled true  } 
 ```
 
-####Example build.gradle
+Example build.gradle
 
 ```groovy
 plugins {
