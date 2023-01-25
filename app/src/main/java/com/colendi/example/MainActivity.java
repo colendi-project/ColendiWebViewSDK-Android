@@ -22,6 +22,6 @@ public class MainActivity extends AppCompatActivity {
         colendiWebView.setActivity(this, s -> {
             Log.d(TAG, "onMessageReceived: ");
         });
-        colendiWebView.loadUrl("http://192.168.1.24:8080/");
+        colendiWebView.loadUrl(""); // Your Url
     }
 }
