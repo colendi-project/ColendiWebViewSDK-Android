@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        colendiWebView = findViewById(R.id.wenView);
+        colendiWebView = findViewById(R.id.webView);
         colendiWebView.setActivity(this, s -> {
             Log.d(TAG, "onMessageReceived: ");
         });
