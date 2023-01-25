@@ -103,7 +103,7 @@ Add ColendiWebView to your activity/fragment xml
 
 ```xml
 <com.colendi.webview.ColendiWebView
-        android:id="@+id/wenView"
+        android:id="@+id/webView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
