@@ -31,7 +31,7 @@ it, simply add the following line to your build.gradle:
 
 ```groovy
 implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
-implementation 'com.colendi:webview:1.0.1'
+implementation 'com.colendi:webview:1.0.2'
 ```
 also Enable DataBinding in the Module build.gradle by adding this line into code block of android {}:
 
@@ -74,7 +74,7 @@ android {
 
 dependencies {
     ....
-    implementation 'com.colendi:webview:1.0.1'
+    implementation 'com.colendi:webview:1.0.2'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
     ....
 }
